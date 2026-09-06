@@ -1,1 +1,395 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ccff00"><meta name="description" content="Meme Scout — discover new memes and analyze wallets on Robinhood Chain."><title>MEME SCOUT</title><link rel="icon" href="mascot.png"><link rel="stylesheet" href="styles.css"></head><body><header class="nav"><a class="brand" href="#top"><b>↗</b> MEME SCOUT</a><nav><a href="#radar">Radar</a><a href="#analyzer">Analyzer</a><a href="#buy">Buy</a></nav><div class="socials"><a id="twitterLink" href="#">𝕏</a><a id="telegramLink" href="#">✈</a></div></header><main id="top"><section class="hero"><div><div class="eyebrow">● LIVE ON ROBINHOOD CHAIN</div><h1>FIND THE NEXT<br><em>MEME.</em></h1><p>Meme Scout is built for people who want to spot new memes, check wallets and explore the on-chain scene.</p><div class="actions"><a id="heroBuy" class="btn primary" href="#">BUY $SCOUT ↗</a><a class="btn ghost" href="#radar">OPEN RADAR ↓</a></div><small>Independent community project · Not affiliated with Robinhood</small></div><div class="art"><div class="glow"></div><img src="mascot.png" alt="Meme Scout mascot"></div></section><section class="cards" id="radar"><article><label>01 / WALLET RADAR</label><h2>CHECK THE<br><span>WALLET.</span></h2><p>Analyze wallet activity and discover what a wallet has been doing on-chain.</p><i>COMING SOON</i></article><article><label>02 / MEME RADAR</label><h2>SPOT NEW<br><span>MEMES.</span></h2><p>Track new meme launches and surface interesting activity.</p><i>COMING SOON</i></article><article id="buy"><label>03 / THE MEME</label><h2>BUY<br><span>$SCOUT.</span></h2><p>The Meme Scout token will launch on Robinhood Chain.</p><a id="buyButton" class="btn primary" href="#">BUY ↗</a></article></section><section id="analyzer" class="section"><div class="head"><div><div class="eyebrow">● MEME SCOUT TOOL</div><h2>SCOUT<br><em>RADAR</em></h2></div><i>COMING SOON</i></div><div class="preview"><div class="search"><b>WALLET ADDRESS</b><div>0x................................................</div><button disabled>ANALYZE</button></div><div class="stats"><div>WALLET SCORE<strong>--</strong></div><div>WIN RATE<strong>--</strong></div><div>REALIZED PNL<strong>--</strong></div><div>MEME ACTIVITY<strong>--</strong></div></div></div></section><section class="section"><div class="head"><div><div class="eyebrow">● COMMUNITY TOOL</div><h2>WALLET<br><em>CHECK</em></h2></div><i class="live">LIVE</i></div><div class="embed"><div class="embedbar"><span>MEME SCOUT / WALLET CHECK</span><a href="https://zksync.netlify.app/robinhood" target="_blank" rel="noopener">OPEN FULL ↗</a></div><iframe src="https://zksync.netlify.app/robinhood" title="Wallet analysis tool" loading="lazy"></iframe></div></section><section class="chain"><b>●</b><div><strong>BUILT FOR ROBINHOOD CHAIN</strong><span>Fast · EVM compatible · Low-cost on-chain environment</span></div></section></main><footer>MEME SCOUT © 2026 <span>MEME PROJECT · COMMUNITY TOOL</span></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ccff00">
+    <meta name="description" content="Meme Scout — discover new memes and analyze wallets on Robinhood Chain.">
+
+    <title>MEME SCOUT</title>
+
+    <link rel="icon" href="mascot.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="nav">
+        <a class="brand" href="#top">
+            <b>↗</b>
+            MEME SCOUT
+        </a>
+
+        <nav>
+            <a href="#radar">Radar</a>
+            <a href="#analyzer">Analyzer</a>
+            <a href="#buy">Buy</a>
+        </nav>
+
+        <div class="socials">
+            <a id="twitterLink" href="#">𝕏</a>
+            <a id="telegramLink" href="#">✈</a>
+        </div>
+    </header>
+
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div>
+                <div class="eyebrow">
+                    ● LIVE ON ROBINHOOD CHAIN
+                </div>
+
+                <h1>
+                    FIND THE NEXT<br>
+                    <em>MEME.</em>
+                </h1>
+
+                <p>
+                    Meme Scout is built for people who want to spot new memes,
+                    check wallets and explore the on-chain scene.
+                </p>
+
+                <div class="actions">
+                    <a id="heroBuy" class="btn primary" href="#">
+                        BUY $SCOUT ↗
+                    </a>
+
+                    <a class="btn ghost" href="#wallet-check">
+                        OPEN RADAR ↓
+                    </a>
+                </div>
+
+                <small>
+                    Independent community project · Not affiliated with Robinhood
+                </small>
+            </div>
+
+            <div class="art">
+                <div class="glow"></div>
+
+                <img
+                    src="mascot.png"
+                    alt="Meme Scout mascot"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- WALLET CHECK / EMBED -->
+        <section id="wallet-check" class="section wallet-check-section">
+
+            <div class="head">
+
+                <div>
+                    <div class="eyebrow">
+                        ● COMMUNITY TOOL
+                    </div>
+
+                    <h2>
+                        WALLET<br>
+                        <em>CHECK</em>
+                    </h2>
+                </div>
+
+                <i class="live">
+                    LIVE
+                </i>
+
+            </div>
+
+            <div class="embed">
+
+                <div class="embedbar">
+                    <span>
+                        MEME SCOUT / WALLET CHECK
+                    </span>
+
+                    <a
+                        href="https://zksync.netlify.app/robinhood"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        OPEN FULL ↗
+                    </a>
+                </div>
+
+                <iframe
+                    src="https://zksync.netlify.app/robinhood"
+                    title="Wallet analysis tool"
+                    loading="lazy"
+                ></iframe>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUY -->
+        <section id="buy" class="buy-section">
+
+            <article class="buy-card">
+
+                <label>
+                    01 / THE MEME
+                </label>
+
+                <h2>
+                    BUY<br>
+                    <span>$SCOUT.</span>
+                </h2>
+
+                <p>
+                    The Meme Scout token will launch on Robinhood Chain.
+                </p>
+
+                <a
+                    id="buyButton"
+                    class="btn primary"
+                    href="#"
+                >
+                    BUY ↗
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- COMING SOON CARDS -->
+        <section class="cards" id="radar">
+
+            <article>
+
+                <label>
+                    02 / WALLET RADAR
+                </label>
+
+                <h2>
+                    CHECK THE<br>
+                    <span>WALLET.</span>
+                </h2>
+
+                <p>
+                    Analyze wallet activity and discover what a wallet
+                    has been doing on-chain.
+                </p>
+
+                <i>
+                    COMING SOON
+                </i>
+
+            </article>
+
+
+            <article>
+
+                <label>
+                    03 / MEME RADAR
+                </label>
+
+                <h2>
+                    SPOT NEW<br>
+                    <span>MEMES.</span>
+                </h2>
+
+                <p>
+                    Track new meme launches and surface interesting activity.
+                </p>
+
+                <i>
+                    COMING SOON
+                </i>
+
+            </article>
+
+        </section>
+
+
+        <!-- SCOUT RADAR COMING SOON -->
+        <section id="analyzer" class="section">
+
+            <div class="head">
+
+                <div>
+                    <div class="eyebrow">
+                        ● MEME SCOUT TOOL
+                    </div>
+
+                    <h2>
+                        SCOUT<br>
+                        <em>RADAR</em>
+                    </h2>
+                </div>
+
+                <i>
+                    COMING SOON
+                </i>
+
+            </div>
+
+
+            <div class="preview">
+
+                <div class="search">
+
+                    <b>
+                        WALLET ADDRESS
+                    </b>
+
+                    <div>
+                        0x................................................
+                    </div>
+
+                    <button disabled>
+                        ANALYZE
+                    </button>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        WALLET SCORE
+                        <strong>--</strong>
+                    </div>
+
+                    <div>
+                        WIN RATE
+                        <strong>--</strong>
+                    </div>
+
+                    <div>
+                        REALIZED PNL
+                        <strong>--</strong>
+                    </div>
+
+                    <div>
+                        MEME ACTIVITY
+                        <strong>--</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMMUNITY / SOCIAL -->
+        <section class="community-section">
+
+            <div class="community-inner">
+
+                <div class="eyebrow">
+                    ● JOIN THE SCOUTS
+                </div>
+
+                <h2>
+                    FOLLOW THE<br>
+                    <em>HUNT.</em>
+                </h2>
+
+                <p>
+                    Follow Meme Scout for new launches, wallet activity,
+                    updates and upcoming tools.
+                </p>
+
+
+                <div class="community-links">
+
+                    <a
+                        id="twitterLarge"
+                        class="community-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <span class="community-icon">𝕏</span>
+
+                        <span class="community-text">
+                            <small>FOLLOW ON</small>
+                            <strong>TWITTER / X</strong>
+                        </span>
+
+                        <span class="community-arrow">
+                            ↗
+                        </span>
+                    </a>
+
+
+                    <a
+                        id="telegramLarge"
+                        class="community-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <span class="community-icon">✈</span>
+
+                        <span class="community-text">
+                            <small>JOIN THE</small>
+                            <strong>TELEGRAM</strong>
+                        </span>
+
+                        <span class="community-arrow">
+                            ↗
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAIN -->
+        <section class="chain">
+
+            <b>●</b>
+
+            <div>
+                <strong>
+                    BUILT FOR ROBINHOOD CHAIN
+                </strong>
+
+                <span>
+                    Fast · EVM compatible · Low-cost on-chain environment
+                </span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <span>
+            MEME SCOUT © 2026
+        </span>
+
+        <span>
+            MEME PROJECT · COMMUNITY TOOL
+        </span>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        const twitterLarge = document.getElementById("twitterLarge");
+        const telegramLarge = document.getElementById("telegramLarge");
+
+        twitterLarge.href = document.getElementById("twitterLink").href;
+        telegramLarge.href = document.getElementById("telegramLink").href;
+    </script>
+
+</body>
+                  </html>
